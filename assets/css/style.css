@@ -1,0 +1,162 @@
+/*Reset default settings*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Body */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Header design */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #393939ff;
+    color: #ffffff;
+}
+
+/* "Hyungkeun Kim" text in header */
+.header h1 {
+    display: inline-block;
+    font-size: 4vw;
+}
+
+/* Navigation bar */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+}
+
+/* Box occupied by a button in navigation bar */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Button in navigation bar */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Descriptions in each topic box */
+p {
+    font-size: 2vw;
+}
+
+/* Main image */
+.main-image {
+    height: auto;
+    width: 100%;
+    margin-bottom: 25px;
+    min-height: 800px;
+    background-image: url("../images/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-sunset-japan_335224-215.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Location of small image */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Location of small image */
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.float-center {
+    float: left;
+    margin-left: 100px;
+}
+
+/* Design of the 'main' */
+.content {
+    width: 90%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+/* Work description design */
+.content-work {
+        display: table;
+        margin-left: 5%;
+        clear: both;
+}
+
+/* Work description header */
+.content-work h2 {
+    margin-bottom: 20px;
+    font-size: 3vw;
+}
+
+.column {
+    float: left;
+    height: 50vw;
+  }
+  
+  .left {
+    width: 43vw;
+    padding: 2vw;
+  }
+  
+  .right {
+    width: 45vw;
+    padding: 2vw;
+  }
+
+  /* Design of "About Me" box */
+.about-me {
+    margin-bottom: 20px;
+    padding: 2vw;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #393939ff;
+    color: #ffffff;
+}
+
+/* Design of "Contact Me" box */
+.contact-me {
+    margin-bottom: 20px;
+    padding: 2vw;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #393939ff;
+    color: #ffffff;
+}
+
+.about-me img {
+    max-height: 200px;
+}
+
+.contact-me img {
+    max-height: 200px;
+}
+
+/* About Me description header */
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 3vw;
+}
+
+/* Contact Me header */
+.contact-me h2 {
+    margin-bottom: 20px;
+    font-size: 3vw;
+}
+
+.flex-container-col {
+    display: inline-block;
+    flex-direction: column;
+}
