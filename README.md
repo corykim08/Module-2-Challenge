@@ -1,6 +1,2 @@
-# Code Refactor Starter Code
-Changed to semantic HTML elements.
-Built logical structure.
-Created accessible alt attribute for each image.
-Created descriptive title of the page.
-Made heading attributes fall in sequential order.
+![1](https://user-images.githubusercontent.com/88374157/184163989-2cb5e23d-67a5-422e-b42f-295fd1de0090.png)
+Put 
